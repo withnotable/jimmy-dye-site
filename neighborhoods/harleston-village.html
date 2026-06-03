@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harleston Village Neighborhood Guide | Jimmy Dye</title>
+    <meta name="description" content="A historic Charleston peninsula neighborhood where antebellum mansions and tree-lined streets create an elegant residential enclave near the harbor.">
+    <meta property="og:title" content="Harleston Village Neighborhood Guide | Jimmy Dye">
+    <meta property="og:description" content="A historic Charleston peninsula neighborhood where antebellum mansions and tree-lined streets create an elegant residential enclave near the harbor.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Place",
+  "name": "Harleston Village",
+  "url": "https://withnotable.github.io/jimmy-dye-site/neighborhoods/harleston-village.html",
+  "description": "A historic Charleston peninsula neighborhood where antebellum mansions and tree-lined streets create an elegant residential enclave near the harbor.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Mount Pleasant",
+    "addressRegion": "SC"
+  },
+  "containedInPlace": {
+    "@type": "Place",
+    "name": "Mount Pleasant, SC"
+  }
+}
+    </script>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-inner">
+            <a href="../index.html" class="nav-brand">Jimmy Dye <span>·</span> Realtor</a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../index.html#neighborhoods">Neighborhoods</a></li>
+                <li><a href="../blog/index.html">Blog</a></li>
+                <li><a href="https://jdye.thecassinagroup.com/results-gallery/?minprice=1000000&amp;photo=1&amp;sort=importdate&amp;status=A%2CCS" target="_blank" rel="noopener noreferrer" class="nav-listings">View Listings</a></li>
+                <li><a href="../contact.html" class="nav-cta">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+
+    <div class="article-header">
+        <div class="article-header-inner">
+            <div class="meta-line"><span class="blog-card-category">Neighborhood Guide</span><span>Mount Pleasant, SC</span></div>
+            <h1>Harleston Village</h1>
+            <p class="article-lede">A historic Charleston peninsula neighborhood where antebellum mansions and tree-lined streets create an elegant residential enclave near the harbor.</p>
+        </div>
+    </div>
+
+    <div class="article-body">
+        <h2>Historic Peninsula Character</h2><p>Harleston Village occupies a distinguished corner of the Charleston peninsula, bordered by Calhoun Street to the north and extending toward the Ashley River. This historic neighborhood showcases some of Charleston's most impressive antebellum architecture, with grand mansions and elegant townhouses dating from the 18th and 19th centuries lining its quiet, tree-canopied streets.</p><h2>Architecture and Streetscapes</h2><p>The neighborhood features an exceptional collection of historic homes, including stately Greek Revival mansions, Charleston single houses, and Victorian-era residences. Many properties sit behind wrought-iron gates with beautiful gardens, while live oak trees create natural canopies over the sidewalks. The architectural integrity of the area reflects Charleston's rich building traditions and careful historic preservation.</p><h2>Location and Accessibility</h2><p>Positioned between downtown Charleston's business district and the medical district, Harleston Village offers convenient access to the peninsula's amenities while maintaining a residential atmosphere. The neighborhood's location provides easy connections to King Street's shopping and dining corridor, as well as Charleston's historic waterfront areas.</p><h2>Green Spaces and Lifestyle</h2><p>Tree-lined streets and private gardens contribute to the neighborhood's lush, park-like atmosphere. The area's walkable grid pattern and sidewalks encourage strolling, while the proximity to Charleston's harbor and historic sites creates opportunities for exploring the city's cultural offerings. The pace here reflects Charleston's genteel Southern character, with a focus on preservation of historic charm and architectural heritage.</p>
+        <div class="neighborhood-cta">
+            <h3>Considering Harleston Village?</h3>
+            <p>Jimmy Dye knows this area firsthand. Reach out for local guidance.</p>
+            <a href="https://jdye.thecassinagroup.com/results-gallery/?minprice=1000000&amp;photo=1&amp;sort=importdate&amp;status=A%2CCS" target="_blank" rel="noopener noreferrer" class="btn-primary">View Listings in Mount Pleasant</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-brand">Jimmy Dye · The Cassina Group</div>
+        <p>Equal Housing Opportunity</p>
+        <p class="footer-disclaimer">Content on this site is created with AI assistance and reviewed by Jimmy Dye.</p>
+        <div class="footer-links">
+            <a href="../index.html">Home</a>
+            <a href="../about.html">About</a>
+            <a href="../blog/index.html">Blog</a>
+            <a href="../contact.html">Contact</a>
+            <a href="https://withnotable.ai" target="_blank" rel="noopener noreferrer">Powered by withNotable</a>
+        </div>
+    </footer>
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('navbar');
+            if (nav) nav.classList.toggle('scrolled', window.scrollY > 50);
+        });
+        const navToggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        if (navToggle && navLinks) {
+            navToggle.addEventListener('click', () => { navLinks.classList.toggle('mobile-open'); navToggle.classList.toggle('active'); });
+        }
+        document.querySelectorAll('.faq-question').forEach(q => {
+            q.addEventListener('click', () => {
+                const item = q.parentElement;
+                const wasOpen = item.classList.contains('open');
+                document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+                if (!wasOpen) item.classList.add('open');
+            });
+        });
+    </script>
+</body>
+</html>

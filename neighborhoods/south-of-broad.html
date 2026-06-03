@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>South of Broad Neighborhood Guide | Jimmy Dye</title>
+    <meta name="description" content="South of Broad in Mount Pleasant offers coastal living with tree-lined streets, historic charm, and proximity to Charleston's waterways.">
+    <meta property="og:title" content="South of Broad Neighborhood Guide | Jimmy Dye">
+    <meta property="og:description" content="South of Broad in Mount Pleasant offers coastal living with tree-lined streets, historic charm, and proximity to Charleston's waterways.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Place",
+  "name": "South of Broad",
+  "url": "https://withnotable.github.io/jimmy-dye-site/neighborhoods/south-of-broad.html",
+  "description": "South of Broad in Mount Pleasant offers coastal living with tree-lined streets, historic charm, and proximity to Charleston's waterways.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Mount Pleasant",
+    "addressRegion": "SC"
+  },
+  "containedInPlace": {
+    "@type": "Place",
+    "name": "Mount Pleasant, SC"
+  }
+}
+    </script>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-inner">
+            <a href="../index.html" class="nav-brand">Jimmy Dye <span>·</span> Realtor</a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../index.html#neighborhoods">Neighborhoods</a></li>
+                <li><a href="../blog/index.html">Blog</a></li>
+                <li><a href="https://jdye.thecassinagroup.com/results-gallery/?minprice=1000000&amp;photo=1&amp;sort=importdate&amp;status=A%2CCS" target="_blank" rel="noopener noreferrer" class="nav-listings">View Listings</a></li>
+                <li><a href="../contact.html" class="nav-cta">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+
+    <div class="article-header">
+        <div class="article-header-inner">
+            <div class="meta-line"><span class="blog-card-category">Neighborhood Guide</span><span>Mount Pleasant, SC</span></div>
+            <h1>South of Broad</h1>
+            <p class="article-lede">South of Broad in Mount Pleasant offers coastal living with tree-lined streets, historic charm, and proximity to Charleston's waterways.</p>
+        </div>
+    </div>
+
+    <div class="article-body">
+        <h2>Coastal Character and Geography</h2><p>South of Broad in Mount Pleasant sits on the eastern shores of Charleston Harbor, characterized by its proximity to both the Cooper River and Charleston's historic peninsula. The area features gently rolling terrain with mature live oak canopies and glimpses of tidal waterways that define the Lowcountry landscape.</p><h2>Architectural Heritage</h2><p>The neighborhood showcases a mix of architectural styles reflecting the region's coastal heritage. Traditional Charleston-style homes with wide porches and elevated foundations blend with contemporary coastal designs, many featuring elements like dormers, wraparound porches, and hurricane-resistant construction that speaks to generations of coastal living.</p><h2>Local Culture and Lifestyle</h2><p>The area maintains a relaxed coastal pace where maritime traditions remain part of daily life. Local culture centers around the water, with many residents enjoying boating, fishing, and waterfront activities. The proximity to Charleston's historic district means easy access to cultural events, festivals, and the renowned culinary scene while maintaining a quieter residential atmosphere.</p><h2>Natural Spaces and Walkability</h2><p>Tree-lined streets create natural canopies throughout much of the area, while nearby waterfront access points provide opportunities for kayaking and fishing. The neighborhood's layout encourages walking, with many destinations reachable on foot or by bicycle, connecting residents to both local amenities and the broader Charleston area.</p>
+        <div class="neighborhood-cta">
+            <h3>Considering South of Broad?</h3>
+            <p>Jimmy Dye knows this area firsthand. Reach out for local guidance.</p>
+            <a href="https://jdye.thecassinagroup.com/results-gallery/?minprice=1000000&amp;photo=1&amp;sort=importdate&amp;status=A%2CCS" target="_blank" rel="noopener noreferrer" class="btn-primary">View Listings in Mount Pleasant</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-brand">Jimmy Dye · The Cassina Group</div>
+        <p>Equal Housing Opportunity</p>
+        <p class="footer-disclaimer">Content on this site is created with AI assistance and reviewed by Jimmy Dye.</p>
+        <div class="footer-links">
+            <a href="../index.html">Home</a>
+            <a href="../about.html">About</a>
+            <a href="../blog/index.html">Blog</a>
+            <a href="../contact.html">Contact</a>
+            <a href="https://withnotable.ai" target="_blank" rel="noopener noreferrer">Powered by withNotable</a>
+        </div>
+    </footer>
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('navbar');
+            if (nav) nav.classList.toggle('scrolled', window.scrollY > 50);
+        });
+        const navToggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        if (navToggle && navLinks) {
+            navToggle.addEventListener('click', () => { navLinks.classList.toggle('mobile-open'); navToggle.classList.toggle('active'); });
+        }
+        document.querySelectorAll('.faq-question').forEach(q => {
+            q.addEventListener('click', () => {
+                const item = q.parentElement;
+                const wasOpen = item.classList.contains('open');
+                document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+                if (!wasOpen) item.classList.add('open');
+            });
+        });
+    </script>
+</body>
+</html>

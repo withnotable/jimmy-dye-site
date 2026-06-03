@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mount Pleasant Neighborhood Guide | Jimmy Dye</title>
+    <meta name="description" content="Mount Pleasant blends historic charm with coastal living, featuring tree-lined streets, waterfront views, and a relaxed Lowcountry atmosphere.">
+    <meta property="og:title" content="Mount Pleasant Neighborhood Guide | Jimmy Dye">
+    <meta property="og:description" content="Mount Pleasant blends historic charm with coastal living, featuring tree-lined streets, waterfront views, and a relaxed Lowcountry atmosphere.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Place",
+  "name": "Mount Pleasant",
+  "url": "https://withnotable.github.io/jimmy-dye-site/neighborhoods/mount-pleasant.html",
+  "description": "Mount Pleasant blends historic charm with coastal living, featuring tree-lined streets, waterfront views, and a relaxed Lowcountry atmosphere.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Mount Pleasant",
+    "addressRegion": "SC"
+  },
+  "containedInPlace": {
+    "@type": "Place",
+    "name": "Mount Pleasant, SC"
+  }
+}
+    </script>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-inner">
+            <a href="../index.html" class="nav-brand">Jimmy Dye <span>·</span> Realtor</a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../index.html#neighborhoods">Neighborhoods</a></li>
+                <li><a href="../blog/index.html">Blog</a></li>
+                <li><a href="https://jdye.thecassinagroup.com/results-gallery/?minprice=1000000&amp;photo=1&amp;sort=importdate&amp;status=A%2CCS" target="_blank" rel="noopener noreferrer" class="nav-listings">View Listings</a></li>
+                <li><a href="../contact.html" class="nav-cta">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+
+    <div class="article-header">
+        <div class="article-header-inner">
+            <div class="meta-line"><span class="blog-card-category">Neighborhood Guide</span><span>Mount Pleasant, SC</span></div>
+            <h1>Mount Pleasant</h1>
+            <p class="article-lede">Mount Pleasant blends historic charm with coastal living, featuring tree-lined streets, waterfront views, and a relaxed Lowcountry atmosphere.</p>
+        </div>
+    </div>
+
+    <div class="article-body">
+        <h2>Historic Lowcountry Character</h2><p>Mount Pleasant sits gracefully along Charleston Harbor, embodying the essence of South Carolina's Lowcountry with its moss-draped live oaks, historic plantations, and traditional Southern architecture. The town's roots stretch back to the colonial era, and this heritage remains visible in its preserved antebellum homes and centuries-old churches that dot the landscape.</p><h2>Waterfront Geography</h2><p>Positioned between the Cooper and Wando rivers, Mount Pleasant offers abundant water access and coastal views. The town's geography is defined by tidal creeks, marshlands, and several barrier islands, creating a naturally beautiful setting that captures the essence of coastal South Carolina living.</p><h2>Architectural Heritage</h2><p>The area showcases a diverse mix of architectural styles, from historic plantation houses and classic Southern cottages to contemporary coastal homes. Many properties feature traditional elements like wraparound porches, tabby foundations, and hurricane shutters that reflect both practical coastal living and regional aesthetic traditions.</p><h2>Local Culture and Lifestyle</h2><p>Mount Pleasant maintains a relaxed, coastal pace where boating, fishing, and outdoor activities are woven into daily life. The town hosts various festivals and events throughout the year that celebrate its maritime heritage and Lowcountry culture, while local markets and waterfront dining establishments offer gathering places for the community.</p>
+        <div class="neighborhood-cta">
+            <h3>Considering Mount Pleasant?</h3>
+            <p>Jimmy Dye knows this area firsthand. Reach out for local guidance.</p>
+            <a href="https://jdye.thecassinagroup.com/results-gallery/?minprice=1000000&amp;photo=1&amp;sort=importdate&amp;status=A%2CCS" target="_blank" rel="noopener noreferrer" class="btn-primary">View Listings in Mount Pleasant</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-brand">Jimmy Dye · The Cassina Group</div>
+        <p>Equal Housing Opportunity</p>
+        <p class="footer-disclaimer">Content on this site is created with AI assistance and reviewed by Jimmy Dye.</p>
+        <div class="footer-links">
+            <a href="../index.html">Home</a>
+            <a href="../about.html">About</a>
+            <a href="../blog/index.html">Blog</a>
+            <a href="../contact.html">Contact</a>
+            <a href="https://withnotable.ai" target="_blank" rel="noopener noreferrer">Powered by withNotable</a>
+        </div>
+    </footer>
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('navbar');
+            if (nav) nav.classList.toggle('scrolled', window.scrollY > 50);
+        });
+        const navToggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        if (navToggle && navLinks) {
+            navToggle.addEventListener('click', () => { navLinks.classList.toggle('mobile-open'); navToggle.classList.toggle('active'); });
+        }
+        document.querySelectorAll('.faq-question').forEach(q => {
+            q.addEventListener('click', () => {
+                const item = q.parentElement;
+                const wasOpen = item.classList.contains('open');
+                document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+                if (!wasOpen) item.classList.add('open');
+            });
+        });
+    </script>
+</body>
+</html>
