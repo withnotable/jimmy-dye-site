@@ -1,47 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://withnotable.github.io/jimmy-dye-site/</loc>
+    <loc>https://jimmydyerealestate.com/</loc>
     <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://withnotable.github.io/jimmy-dye-site/about.html</loc>
+    <loc>https://jimmydyerealestate.com/about.html</loc>
     <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://withnotable.github.io/jimmy-dye-site/contact.html</loc>
+    <loc>https://jimmydyerealestate.com/blog/</loc>
     <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://withnotable.github.io/jimmy-dye-site/blog/</loc>
+    <loc>https://jimmydyerealestate.com/contact.html</loc>
     <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://withnotable.github.io/jimmy-dye-site/neighborhoods/sullivans-island.html</loc>
-    <lastmod>2026-06-03</lastmod>
+    <loc>https://jimmydyerealestate.com/blog/110-beaufain-street-masterpiece-reborn.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://withnotable.github.io/jimmy-dye-site/neighborhoods/isle-of-palms.html</loc>
-    <lastmod>2026-06-03</lastmod>
+    <loc>https://jimmydyerealestate.com/blog/1702-ion-avenue-sullivans-island-sale.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://withnotable.github.io/jimmy-dye-site/neighborhoods/old-village.html</loc>
-    <lastmod>2026-06-03</lastmod>
+    <loc>https://jimmydyerealestate.com/blog/cassina-group-20-years.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://withnotable.github.io/jimmy-dye-site/neighborhoods/mount-pleasant.html</loc>
-    <lastmod>2026-06-03</lastmod>
+    <loc>https://jimmydyerealestate.com/blog/cassina-realtrends-verified-recognition.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://withnotable.github.io/jimmy-dye-site/neighborhoods/south-of-broad.html</loc>
-    <lastmod>2026-06-03</lastmod>
+    <loc>https://jimmydyerealestate.com/blog/charleston-2025-market-in-numbers.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://withnotable.github.io/jimmy-dye-site/neighborhoods/harleston-village.html</loc>
-    <lastmod>2026-06-03</lastmod>
+    <loc>https://jimmydyerealestate.com/blog/charleston-2026-market-outlook.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://withnotable.github.io/jimmy-dye-site/neighborhoods/french-quarter.html</loc>
-    <lastmod>2026-06-03</lastmod>
+    <loc>https://jimmydyerealestate.com/blog/charleston-curb-appeal.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jimmydyerealestate.com/blog/fall-2025-charleston-market-check.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jimmydyerealestate.com/blog/inside-cassina-luxury-charleston.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
