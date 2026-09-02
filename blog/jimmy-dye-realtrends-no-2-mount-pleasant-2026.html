@@ -12,6 +12,62 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
+    <style>
+        /* Article-scoped formatting. Falls back gracefully if theme already defines these. */
+        .article-body { max-width: 720px; margin: 0 auto; padding: 3rem 1.5rem 4rem; }
+        .article-body .lead {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.5rem;
+            line-height: 1.5;
+            font-weight: 500;
+            margin: 0 0 2rem;
+        }
+        .article-body p { font-family: 'Source Sans 3', system-ui, sans-serif; font-size: 1.075rem; line-height: 1.75; margin: 0 0 1.5rem; }
+        .article-body h2 {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.85rem;
+            font-weight: 600;
+            margin: 2.75rem 0 1.25rem;
+        }
+        .stat-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1.25rem;
+            margin: 2.25rem 0;
+        }
+        .stat-card {
+            border: 1px solid rgba(0,0,0,0.1);
+            border-radius: 10px;
+            padding: 1.5rem 1.25rem;
+            text-align: center;
+        }
+        .stat-card .stat-value {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 2.25rem;
+            font-weight: 700;
+            line-height: 1;
+            display: block;
+        }
+        .stat-card .stat-label {
+            font-family: 'Source Sans 3', system-ui, sans-serif;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            opacity: 0.7;
+            margin-top: 0.5rem;
+            display: block;
+        }
+        .pull-quote {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.6rem;
+            font-style: italic;
+            line-height: 1.45;
+            border-left: 3px solid currentColor;
+            padding: 0.25rem 0 0.25rem 1.5rem;
+            margin: 2.5rem 0;
+        }
+        .pull-quote cite { display: block; font-size: 1rem; font-style: normal; opacity: 0.7; margin-top: 0.75rem; }
+    </style>
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,14 +108,34 @@
             <h1>Jimmy Dye Named No. 2 Real Estate Agent in Mount Pleasant by RealTrends</h1>
         </div>
     </div>
-    <div class="article-body">The Cassina Group Co-Founder Recognized Among South Carolina’s Top-Producing Real Estate Professionals
-The Cassina Group is proud to announce that Co-Founder and Realtor Jimmy Dye has been recognized among the leading real estate professionals in the country in the 2026 RealTrends Verified rankings.
-Based on 2025 sales data, Dye ranked No. 2 in Mount Pleasant and No. 28 in South Carolina by individual sales volume. He was also recognized as a RealTrends Verified Top Agent by Volume, an achievement that places him among a distinguished group of real estate professionals in the United States whose production has been independently verified by RealTrends.
-Dye closed $34.99 million in individual sales volume across 13.5 transaction sides in 2025, with an average home price of approximately $2.59 million. His performance also earned him a place among the nationally ranked agents by sales volume.
-“Charleston has been home for most of my life, so being recognized for the work I get to do here is incredibly meaningful,” said Dye. 
-Dye co-founded The Cassina Group in 2006 and has spent over two decades helping buyers and sellers navigate Charleston’s real estate market. His approach combines extensive local market knowledge with thoughtful guidance, strong negotiation and a commitment to long-term client relationships.
-The RealTrends Verified rankings recognize the country’s leading real estate professionals based on independently verified transaction sides and sales volume. Dye’s 2026 recognition reflects his continued presence among the top-performing agents in Mount Pleasant, South Carolina and nationwide.
-</div>
+
+    <article class="article-body">
+        <p class="lead">The Cassina Group Co-Founder has been recognized among South Carolina's top-producing real estate professionals in the 2026 RealTrends Verified rankings.</p>
+
+        <p>The Cassina Group is proud to announce that Co-Founder and Realtor Jimmy Dye has been recognized among the leading real estate professionals in the country in the 2026 RealTrends Verified rankings.</p>
+
+        <p>Based on 2025 sales data, Dye ranked No. 2 in Mount Pleasant and No. 28 in South Carolina by individual sales volume. He was also recognized as a RealTrends Verified Top Agent by Volume, an achievement that places him among a distinguished group of real estate professionals in the United States whose production has been independently verified by RealTrends.</p>
+
+        <div class="stat-grid">
+            <div class="stat-card"><span class="stat-value">No. 2</span><span class="stat-label">Mount Pleasant</span></div>
+            <div class="stat-card"><span class="stat-value">No. 28</span><span class="stat-label">South Carolina</span></div>
+            <div class="stat-card"><span class="stat-value">$34.99M</span><span class="stat-label">2025 Sales Volume</span></div>
+            <div class="stat-card"><span class="stat-value">$2.59M</span><span class="stat-label">Avg. Home Price</span></div>
+        </div>
+
+        <p>Dye closed $34.99 million in individual sales volume across 13.5 transaction sides in 2025, with an average home price of approximately $2.59 million. His performance also earned him a place among the nationally ranked agents by sales volume.</p>
+
+        <blockquote class="pull-quote">
+            Charleston has been home for most of my life, so being recognized for the work I get to do here is incredibly meaningful.
+            <cite>Jimmy Dye, Co-Founder, The Cassina Group</cite>
+        </blockquote>
+
+        <h2>Two Decades in the Charleston Market</h2>
+
+        <p>Dye co-founded The Cassina Group in 2006 and has spent over two decades helping buyers and sellers navigate Charleston's real estate market. His approach combines extensive local market knowledge with thoughtful guidance, strong negotiation and a commitment to long-term client relationships.</p>
+
+        <p>The RealTrends Verified rankings recognize the country's leading real estate professionals based on independently verified transaction sides and sales volume. Dye's 2026 recognition reflects his continued presence among the top-performing agents in Mount Pleasant, South Carolina and nationwide.</p>
+    </article>
 
     <footer>
         <div class="footer-brand">Jimmy Dye · The Cassina Group</div>
@@ -73,6 +149,7 @@ The RealTrends Verified rankings recognize the country’s leading real estate p
             <a href="https://withnotable.ai" target="_blank" rel="noopener noreferrer">Powered by withNotable</a>
         </div>
     </footer>
+
     <script>
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
