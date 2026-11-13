@@ -39,6 +39,17 @@
     <section>
         <div class="section-inner">
             <div class="blog-grid" id="blog-posts">
+                <a href="charleston-sc-winter-real-estate-market" class="blog-card fade-in">
+                <div class="blog-card-body">
+                    <div class="blog-card-meta">
+                        <span class="blog-card-category">Market Insights</span>
+                        <span class="blog-card-date">November 13th 2026</span>
+                    </div>
+                    <h2 class="blog-card-title">Prepare Your Charleston Home to List at the Beginning of the Year</h2>
+                    <p class="blog-card-excerpt">Jimmy Dye of The Cassina Group breaks down the Charleston winter real estate market for buyers and sellers in Mount Pleasant, Isle of Palms, and beyond.</p>
+                    <span class="blog-card-read">Read Article →</span>
+                </div>
+            </a>
                 <a href="sullivans-island-art-walk-sunday-lowcountry-real-estate" class="blog-card fade-in">
                 <div class="blog-card-body">
                     <div class="blog-card-meta">
@@ -165,6 +176,40 @@
                 if (!wasOpen) item.classList.add('open');
             });
         });
+    </script>
+    <script>
+        (function () {
+            try {
+                var ref = '';
+                try {
+                    // Same-site referrers are dropped: moving from /about
+                    // to /contact is navigation, not a traffic source, and
+                    // counting it would drown the real sources.
+                    if (document.referrer) {
+                        var r = new URL(document.referrer);
+                        if (r.host !== location.host) ref = r.host;
+                    }
+                } catch (e) {}
+                var send = function () {
+                    try {
+                        fetch("/api/site-analytics/pageview", {
+                            method: 'POST',
+                            headers: { 'content-type': 'application/json' },
+                            body: JSON.stringify({ p: location.pathname, r: ref }),
+                            // Survives the page being closed mid-flight.
+                            keepalive: true,
+                            credentials: 'omit',
+                            cache: 'no-store'
+                        }).catch(function () {});
+                    } catch (e) {}
+                };
+                if (document.readyState === 'loading') {
+                    document.addEventListener('DOMContentLoaded', send, { once: true });
+                } else {
+                    send();
+                }
+            } catch (e) {}
+        })();
     </script>
 </body>
 </html>
